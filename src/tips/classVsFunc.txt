@@ -1,0 +1,35 @@
+import React from 'react'
+
+//Functional Component
+function App(props){
+    return (
+        <header>            
+            <h4>Header of the component {props.whateverprop}</h4>
+        </header>
+    )
+}
+export default Header
+
+----------- [OR] -----------------
+//Class Component
+
+class App extends React.Component{
+	
+	yourMethod(){
+		//code
+	}
+	
+    render(){
+        const date = new Date()
+		const retMethod = this.yourMethod()
+		
+        return (
+            <header>            
+				<h4>Header of the component {this.props.whateverprop}</h4>
+			</header>
+        )
+    }    
+}
+
+
+export default App

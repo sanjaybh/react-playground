@@ -1,5 +1,5 @@
 body{
-    color:blue;
+    __color:blue;
     _margin: 0;
 }
 
@@ -54,14 +54,14 @@ body {
         0 20px 0 -10px #eee,
             /* The third layer shadow */
         0 20px 1px -9px rgba(0,0,0,0.15);
-    padding: 30px;
+    padding: 20px;
 }
 
 .todo-item {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 30px 20px 0;
+    padding: 10px 20px 0;
     width: 70%;
     border-bottom: 1px solid #cecece;
     font-family: Roboto, sans-serif;
@@ -77,4 +77,30 @@ input[type=checkbox] {
 
 input[type=checkbox]:focus {
     outline: 0;
+}
+
+
+/* ---[Contact Card]--- */
+
+.contacts {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-card {
+    flex-basis: 250px;
+    margin: 20px;
+}
+
+.contact-card > img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-card > h3 {
+    text-align: center;
+}
+
+.contact-card > p {
+    font-size: 12px;
 }

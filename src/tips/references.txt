@@ -1,0 +1,31 @@
+References - Learn React, ES6
+------------
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findindex
+
+Class in ES6
+-------------
+https://scrimba.com/p/p4Mrt9/cQnMDHD
+
+
+React Events
+------------
+https://reactjs.org/docs/events.html#supported-events
+
+React Class
+------------
+https://scrimba.com/p/p4Mrt9/cQnMDHD
+
+
+
+Other Courses on React
+----------------------
+https://egghead.io/lessons/react-introduction-to-the-beginner-s-guide-to-reactjs
+
+

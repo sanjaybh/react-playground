@@ -1,5 +1,5 @@
 import React from "react"
-import ReactDOM from "react-dom"
+//import ReactDOM from "react-dom"
 
 function Time() {
   const date = new Date(2019, 1, 3, 9) //9, 15, 22
@@ -21,11 +21,11 @@ function Time() {
     styles.color = "#D90000"
   }
   
-  const styles_1 = {
+  /*const styles_1 = {
     color: "#FF8C00", 
     backgroundColor: "#FF2D00",
     fontSize: 16
-  }
+  }*/
 
   return (
     <h3 style={styles}>Good {timeOfDay}!</h3>

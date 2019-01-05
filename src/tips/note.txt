@@ -1,0 +1,73 @@
+Target :- Run new react app, sync with Git repository. make sure to pull and push to git.
+
+try to create a new folder on local and clone the Git repository and run the app from scretch.
+
+--------------------------------
+
+https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
+
+Step 1 - Install create-react-app
+C:\Users\Tutorialspoint\Projects>npx create-react-app my-app
+
+
+Step 2 - Delete all the source files
+> cd my-app/src
+my-app/src > del *
+my-app/src\*, Are you sure (Y/N) ? y
+
+
+Step 3 - Add files (index.js and index.css)
+my-app/src type nul > index.css
+my-app/src type nul > index.js
+
+
+Step 4 - Add following code to index.js
+import React from 'react';
+import ReactDOM from 'react-dom';
+import './index.css';
+
+
+Step 5 - Run project
+npm start
+
+ 	
+sanjaybh78
+git remote add origin https://github.com/sanjaybh/learning-react 
+
+//git remote add origin https://github.com/sanjaybh/repo.git
+
+
+How to use Git inside of VSCode
+-------------------------------
+https://www.youtube.com/watch?v=VOwyH2-VCVY
+
+
+Sync with Git repository
+------------------------
+go into the directory created
+> cd my-app
+my-app > git init
+my-app > git add .
+my-app > git add .gitignore 
+
+You'll probably want to create a .gitignore file right away, to indicate all of the files you don't want to track. Use git add .gitignore , too.
+
+my-app > git commit .
+
+
+
+
+VS Code extensions
+=====================
+Bracket Pair Colorizer
+Indenticator
+Prettier - Code formatter
+Live Server
+Paste JSON as Code
+PHP Server
+Sublime Text Keymap and Settings Importer
+TODO Highlight
+file-icons
+JavaScript (ES6) code snippets
+ES7 React/Redux/GraphQL/React-Native snippets
+
