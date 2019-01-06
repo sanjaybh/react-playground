@@ -20,9 +20,11 @@ import Logged from "./Logged.js";
  
 import ClickEvent from "./events/clickEvent.js";
 
+import ChangeState from "./todoItems/ChangeState.js";
+
 function MainContainer(){
                           return <div>
-                              <ClickEvent />
+                              <TodoMain />
                             </div>;
                           /*
         <div>
@@ -57,7 +59,7 @@ function MainContainer(){
             <Logged />
 
             <ClickEvent />
-
+            <ChangeState />
             
 
         </div>;
