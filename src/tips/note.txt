@@ -2,6 +2,14 @@ Target :- Run new react app, sync with Git repository. make sure to pull and pus
 
 try to create a new folder on local and clone the Git repository and run the app from scretch.
 
+
+Create local folder and sync with Git repository online
+https://www.youtube.com/watch?v=I7WfxhF2wEg&t=0s&list=PLtmgXge8inFAad7gvZuLMzpcetwq4KEzC&index=13
+
+
+Sync Git repository that is online with your local folder
+https://www.youtube.com/watch?v=9cMWR-EGFuY&t=8s&list=PLtmgXge8inFAad7gvZuLMzpcetwq4KEzC&index=14
+
 --------------------------------
 
 https://www.tutorialspoint.com/reactjs/reactjs_environment_setup.htm
