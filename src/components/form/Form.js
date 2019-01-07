@@ -24,10 +24,6 @@ class Form extends Component {
   handleSubmit (event){   
     event.preventDefault();
     console.log("Log here...", this.state)
-    console.log("new line added from local")
-    
-    
-    console.log("Server added few more lines")
   }
 
   render() {
