@@ -8,10 +8,9 @@ import LifeCycle from "./LifeCycle.js"
 function MyApp(){
     return (
         <div>
-            <MainContainer />
-            <LifeCycle />
+            <MainContainer />            
         </div>
     )
 }
-
+//<LifeCycle />
 ReactDOM.render(<MyApp />, document.getElementById('root'))

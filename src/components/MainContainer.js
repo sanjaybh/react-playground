@@ -22,48 +22,82 @@ import ClickEvent from "./events/clickEvent.js";
 
 import ChangeState from "./todoItems/ChangeState.js";
 
-function MainContainer(){
-                          return <div>
-                              <TodoMain />
-                            </div>;
-                          /*
-        <div>
-            <Header />
-            <br />
+import Conditional from "./Conditional.js";
 
-            <h3>Personal Info</h3>
-            <MyInfo />
-            <br />
+import Fetch from "./form/Fetch.js";
+import Form from "./form/Form.js";
 
-            <h3>Jokes List</h3>
-            <JokesContainer />
-            <br />
+class MainContainer extends React.Component {
+    constructor(props) {
+      super(props)
+    
+      this.state = {
+          isLoading: true
+      }
+    }
 
-            <ContactCardContainer />
-            <br />
+    componentDidMount() {
+        setTimeout(() => {
+            this.setState({
+                isLoading: false
+            })
+        }, 1500);
+    }
 
-            <TodoMain />
-            <br />
-
-            <Footer />
-            <br />
-
-            <h3>Products List</h3>
-            <ProdCont />
-            <br />
-
-            <ClassComp />
-
-            <Comp />
-
-            <Logged />
-
-            <ClickEvent />
-            <ChangeState />
-            
-
-        </div>;
-        */
-                        }
+    render (){
+        return <div>
+            <Form />
+          </div>;
+    }    
+    
+}
 
 export default MainContainer
+
+
+
+/*
+    <div>
+        <Header />
+        <br />
+
+        <h3>Personal Info</h3>
+        <MyInfo />
+        <br />
+
+        <h3>Jokes List</h3>
+        <JokesContainer />
+        <br />
+
+        <ContactCardContainer />
+        <br />
+
+        <TodoMain />
+        <br />
+
+        <Footer />
+        <br />
+
+        <h3>Products List</h3>
+        <ProdCont />
+        <br />
+
+        <ClassComp />
+
+        <Comp />
+
+        <Logged />
+
+        <ClickEvent />
+
+        <ChangeState />
+
+        <Conditional />
+        {this.state.isLoading ? "Loading..." : <Conditional /> }
+
+        <Fetch />
+
+        <Form />
+
+    </div>;
+    */
