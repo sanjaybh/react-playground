@@ -37,9 +37,8 @@ import './index.css';
 
 Step 5 - Run project
 npm start
-
  	
-sanjaybh78
+
 git remote add origin https://github.com/sanjaybh/learning-react 
 
 //git remote add origin https://github.com/sanjaybh/repo.git
