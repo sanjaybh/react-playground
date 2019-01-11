@@ -1,4 +1,5 @@
 import React, { Component } from "react"
+import Faker from "faker"
 
 class Form extends Component {
   constructor() {
@@ -113,6 +114,8 @@ class Form extends Component {
         <h2>You are a {this.state.gender}</h2>
         <h2>Your favorite color is {this.state.favColor}</h2>
         <button>Submit</button>
+
+        <img src={Faker.image.avatar()} alt="avatar" />
       </form>
     );
   }

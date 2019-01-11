@@ -13,4 +13,5 @@ function MyApp(){
     )
 }
 //<LifeCycle />
+//<MainContainer />
 ReactDOM.render(<MyApp />, document.getElementById('root'))

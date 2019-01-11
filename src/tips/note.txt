@@ -63,11 +63,39 @@ You'll probably want to create a .gitignore file right away, to indicate all of 
 
 my-app > git commit .
 
+Draw.io
+--------
+https://www.draw.io/#W4b4d5549b51f9f97%2F4B4D5549B51F9F97!2674
 
+
+Axios (REST API)
+======
+https://alligator.io/react/axios-react/
+
+UdemyCourse
+-----------
+https://github.com/StephenGrider/redux-code
+
+
+faker - use faker for fake data or related
+-------
+https://www.npmjs.com/package/faker
+https://github.com/marak/Faker.js/
+
+faker.image.avatar()
+
+
+Semantic-UI - css to be included for components
+-----------------------------------------------
+https://react.semantic-ui.com/
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+    
 
 
 VS Code extensions
 =====================
+Simple React Snippets
 Bracket Pair Colorizer
 Indenticator
 Prettier - Code formatter
